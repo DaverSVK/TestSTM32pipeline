@@ -43,6 +43,7 @@
 ADC_HandleTypeDef hadc;
 
 I2C_HandleTypeDef hi2c1;
+int asijo
 
 /* USER CODE BEGIN PV */
 
