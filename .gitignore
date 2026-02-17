@@ -1,0 +1,54 @@
+# =========================
+# Build outputs
+# =========================
+Debug/
+Release/
+*/Debug/
+*/Release/
+build/
+out/
+bin/
+obj/
+
+# Common toolchain outputs (in case build dir differs)
+*.o
+*.a
+*.d
+*.su
+*.lst
+*.map
+*.elf
+*.hex
+*.bin
+
+# =========================
+# STM32CubeIDE / Eclipse workspace junk
+# (Project files .project/.cproject SHOULD be committed)
+# =========================
+.metadata/
+.recommenders/
+.settings/org.eclipse.*.prefs
+
+# IDE-specific temporary files
+*.launch
+*.log
+
+# CubeIDE sometimes creates these
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# =========================
+# Generated documentation / analysis outputs (optional)
+# =========================
+doxygen/
+*.gcda
+*.gcno
+*.profraw
+
+# =========================
+# Python / scripts caches (if you use scripts)
+# =========================
+__pycache__/
+*.pyc
